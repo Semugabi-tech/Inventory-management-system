@@ -4,7 +4,7 @@
 	
 	//Array to store validation errors
 	$errmsg_arr = array();
-	//validation
+	//my name
 	//Validation error flag
 	$errflag = false;
 	
@@ -13,7 +13,9 @@
 	if(!$link) {
 		die('Failed to connect to server: ' . mysql_error());
 	}
-	
+//hkjlkkll
+//jkkkhk
+//hjm
 	//Select database
 	$db = mysqli_select_db($link, 'sales');
 	if(!$db) {
